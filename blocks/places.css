@@ -1,3 +1,8 @@
 .places {
   padding-top: 92px;
 }
+
+.place{
+  grid-template-columns: repeat( 2 , 1fr );
+}
+

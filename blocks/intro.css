@@ -1,10 +1,14 @@
 .intro {
-  padding: 92px 154px 0 0;
-  max-width: 830px;
+  padding: 92px 0 0 0;
+  max-width: 984px;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.4;
   margin: auto;
+}
+
+.intro__container {
+  max-width: 830px;
 }
 
 .intro__title {

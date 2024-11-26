@@ -6,11 +6,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /*grid-template-rows: 152px 460px 48px;*/
-  grid-template-rows: 152px auto 48px;
+  grid-template-rows: 152px 460px auto;
   grid-template-areas:
     "title artist"
     "image text"
-    "button .";
+    "button text";
   max-width: 984px;
   margin: 0px auto 80px;
   gap: 48px 40px;
@@ -97,7 +97,7 @@
   }
 
   .place {
-    grid-template-rows: 92px auto 48px;
+    grid-template-rows: auto 340px auto;
     max-width: 720px;
     column-gap: 28px;
     margin-bottom: 72px;
